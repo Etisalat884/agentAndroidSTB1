@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.8.10 on linux)" generated="2025-06-11T13:08:18.619927" rpa="false" schemaversion="5">
+<suite id="s1" name="Demotest" source="/home/ltts2/Documents/evqual_automation/agentAndroidSTB1/workspace/TestSuite/STB/Etisalat_Android_STB1/demotest.robot">
+<test id="s1-t1" name="Validation" line="154">
+<kw name="Undefiend test" owner="Demo_Keywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-11T13:08:18.935883" level="FAIL">Variable '${BROWSER}' not found.</msg>
+<arg>undefined</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="FAIL" start="2025-06-11T13:08:18.935413" elapsed="0.000501">Variable '${BROWSER}' not found.</status>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@id="RESET Button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-11T13:08:18.936015" elapsed="0.000017"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@id="UP Button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-11T13:08:18.936094" elapsed="0.000014"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@id="RIGHT Button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-11T13:08:18.936162" elapsed="0.000013"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@id="RIGHT Button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-11T13:08:18.936227" elapsed="0.000053"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@id="RIGHT Button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-11T13:08:18.936341" elapsed="0.000012"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@id="OK Button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-11T13:08:18.936407" elapsed="0.000012"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@id="OK Button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-11T13:08:18.936469" elapsed="0.000011"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@id="DOWN Button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-11T13:08:18.936533" elapsed="0.000012"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@id="OK Button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-11T13:08:18.936596" elapsed="0.000011"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>//button[@id="OK Button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-11T13:08:18.936655" elapsed="0.000012"/>
+</kw>
+<status status="FAIL" start="2025-06-11T13:08:18.934872" elapsed="0.001851">Variable '${BROWSER}' not found.</status>
+</kw>
+<status status="FAIL" start="2025-06-11T13:08:18.934393" elapsed="0.002436">Variable '${BROWSER}' not found.</status>
+</test>
+<status status="FAIL" start="2025-06-11T13:08:18.620430" elapsed="0.316612"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Demotest" id="s1" pass="0" fail="1" skip="0">Demotest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-06-11T13:08:18.907633" level="WARN">Error in file '/home/ltts2/Documents/evqual_automation/agentAndroidSTB1/workspace/Lib/Robot/STB/Android_STB/Demo_Keywords.robot' on line 303: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>
