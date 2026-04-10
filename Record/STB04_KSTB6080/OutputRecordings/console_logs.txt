@@ -1,0 +1,6 @@
+[0.02 s] ${start_time}
+[15.10 s] STB Is Active, continuing test
+[15.10 s] Image not visible, rebooting STB
+[15.10 s] It may take few seconds
+[44.89 s] Navigated to Settings
+[52.59 s] Settings_Ethernet_wifi_option Is Displayed

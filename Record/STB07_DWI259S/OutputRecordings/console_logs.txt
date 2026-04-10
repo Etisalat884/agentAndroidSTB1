@@ -1,0 +1,1050 @@
+[0.02 s] ${start_time}
+[13.22 s] Image is visible, continuing test
+[13.22 s] Image not visible, rebooting STB
+[13.22 s] It may take few seconds
+[33.26 s] TC_1007_Recording_Radio Is Displayed on screen
+[35.82 s] ${start_time}
+[48.91 s] Image is visible, continuing test
+[48.91 s] Image not visible, rebooting STB
+[48.91 s] It may take few seconds
+[100.93 s] ${start_time}
+[114.49 s] Image is visible, continuing test
+[114.50 s] Image not visible, rebooting STB
+[114.50 s] It may take few seconds
+[131.79 s] Navigated to Settings
+[136.23 s] Navigated to Diagnosis Settings
+[141.89 s] Verify On and Off Option is available for Auto Restart
+[142.21 s] On Is Displayed
+[142.49 s] Off Is Displayed
+[155.68 s] Verify Off Option is available for Auto Restart before Reboot
+[156.01 s] Off_Before_Reboot Is Displayed
+[263.88 s] Reboot Success
+[272.19 s] Who's login: ${Result}
+[316.00 s] Navigated to Settings
+[320.44 s] Navigated to Diagnosis Settings
+[324.25 s] Verify Off Option is available for Auto Restart After Reboot
+[324.56 s] Verify
+[324.56 s] Navigated to Diagnosis Settings
+[324.57 s] Verify
+[344.82 s] Navigated to Settings
+[349.81 s] Navigated to Diagnosis Settings
+[372.32 s] ${start_time}
+[385.49 s] Image is visible, continuing test
+[385.49 s] Image not visible, rebooting STB
+[385.49 s] It may take few seconds
+[386.85 s] Navigated to Home Page
+[390.85 s] Navigated to TV Section
+[412.02 s] Navigated To TV Guide Section
+[418.44 s] AFTER IMAGE: ${after_image_path}
+[418.44 s] CROPPED AFTER INFO BAR: ${after_crop}
+[419.65 s] OCR AFTER TEXT: ${after_text}
+[419.65 s] Initial STEP_COUNT: ${STEP_COUNT}
+[419.65 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[419.65 s] "${item}" not found.
+[419.65 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[419.65 s] "${item}" not found.
+[419.65 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[419.65 s] "${item}" not found.
+[419.65 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[419.65 s] "${item}" not found.
+[419.65 s] Final STEP_COUNT: ${STEP_COUNT}
+[422.10 s] Filter applied to select Catch Up
+[426.09 s] Cleared Selected Filters
+[432.69 s] Selected Catch Up From Filter
+[446.24 s] Content Accessed From EPG
+[454.58 s] PlayButton: ${Result}
+[456.18 s] Play video for 3 minutes
+[474.79 s] Navigating to filter
+[474.93 s] AFTER IMAGE: ${after_image_path}
+[474.93 s] CROPPED AFTER INFO BAR: ${after_crop}
+[475.07 s] OCR AFTER TEXT: ${after_text}
+[475.07 s] Initial STEP_COUNT: ${STEP_COUNT}
+[475.07 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[475.07 s] "${item}" not found.
+[475.07 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[475.07 s] "${item}" not found.
+[475.07 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[475.07 s] "${item}" not found.
+[475.07 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[475.07 s] "${item}" not found.
+[475.07 s] Final STEP_COUNT: ${STEP_COUNT}
+[478.11 s] Filter selected
+[500.64 s] ${start_time}
+[513.72 s] Image is visible, continuing test
+[513.72 s] Image not visible, rebooting STB
+[513.72 s] It may take few seconds
+[515.19 s] Navigated To Home Page
+[518.90 s] Navigated To TV Section
+[521.38 s] Navigated To Catch Up Section
+[523.13 s] allchannels Is Displayed
+[524.36 s] Navigated To Catch Up Movies Feed
+[527.07 s] Selected Catch Up Playback
+[527.21 s] AFTER IMAGE: ${after_image_path}
+[527.22 s] CROPPED AFTER INFO BAR: ${after_crop}
+[528.70 s] OCR AFTER TEXT: ${after_text}
+[528.70 s] Initial STEP_COUNT: ${STEP_COUNT}
+[528.70 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[528.70 s] "${item}" not found.
+[528.70 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[528.70 s] "${item}" not found.
+[528.70 s] Final STEP_COUNT: ${STEP_COUNT}
+[537.05 s] Browsed Catch Up Categories And Initiated Content Playback
+[544.40 s] Pause_Button Is Displayed
+[622.33 s] Video is Playing
+[630.93 s] ${start_time}
+[643.97 s] Image is visible, continuing test
+[643.97 s] Image not visible, rebooting STB
+[643.97 s] It may take few seconds
+[645.23 s] Navigated To Home Page
+[648.98 s] Navigated To TV Section
+[651.51 s] Navigated To Catch Up Section
+[654.33 s] GENERAL Is Displayed
+[655.85 s] Navigated To Catch Up Movies Feed
+[658.61 s] Selected Catch Up Playback
+[658.77 s] AFTER IMAGE: ${after_image_path}
+[658.77 s] CROPPED AFTER INFO BAR: ${after_crop}
+[660.24 s] OCR AFTER TEXT: ${after_text}
+[660.25 s] Initial STEP_COUNT: ${STEP_COUNT}
+[660.25 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[660.25 s] "${item}" not found.
+[660.25 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[660.25 s] "${item}" not found.
+[660.25 s] Final STEP_COUNT: ${STEP_COUNT}
+[668.51 s] Browsed Catch Up Categories And Initiated Content Playback
+[675.85 s] Pause_Button Is Displayed
+[753.78 s] Video is Playing
+[762.35 s] ${start_time}
+[775.50 s] Image is visible, continuing test
+[775.50 s] Image not visible, rebooting STB
+[775.50 s] It may take few seconds
+[776.83 s] Navigated To Home Page
+[780.59 s] Navigated To TV Section
+[783.41 s] Navigated To Catch Up Section
+[787.43 s] kidsfam Is Displayed
+[788.89 s] Navigated To Catch Up Movies Feed
+[791.41 s] Selected Catch Up Playback
+[791.55 s] AFTER IMAGE: ${after_image_path}
+[791.56 s] CROPPED AFTER INFO BAR: ${after_crop}
+[793.05 s] OCR AFTER TEXT: ${after_text}
+[793.05 s] Initial STEP_COUNT: ${STEP_COUNT}
+[793.05 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[793.05 s] "${item}" not found.
+[793.05 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[793.05 s] "${item}" not found.
+[793.05 s] Final STEP_COUNT: ${STEP_COUNT}
+[801.00 s] Browsed Catch Up Categories And Initiated Content Playback
+[808.39 s] Pause_Button Is Displayed
+[886.31 s] Video is Playing
+[894.90 s] ${start_time}
+[908.64 s] Image is visible, continuing test
+[908.64 s] Image not visible, rebooting STB
+[908.64 s] It may take few seconds
+[909.89 s] Navigated To Home Page
+[913.66 s] Navigated To TV Section
+[916.63 s] Navigated To Catch Up Section
+[919.39 s] documentary Is Displayed
+[920.64 s] Navigated To Catch Up Movies Feed
+[923.14 s] Selected Catch Up Playback
+[923.28 s] AFTER IMAGE: ${after_image_path}
+[923.29 s] CROPPED AFTER INFO BAR: ${after_crop}
+[924.59 s] OCR AFTER TEXT: ${after_text}
+[924.59 s] Initial STEP_COUNT: ${STEP_COUNT}
+[924.59 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[924.59 s] "${item}" not found.
+[924.59 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[924.59 s] "${item}" not found.
+[924.59 s] Final STEP_COUNT: ${STEP_COUNT}
+[932.80 s] Browsed Catch Up Categories And Initiated Content Playback
+[940.12 s] Pause_Button Is Displayed
+[1018.15 s] Video is Playing
+[1026.70 s] ${start_time}
+[1039.74 s] Image is visible, continuing test
+[1039.74 s] Image not visible, rebooting STB
+[1039.74 s] It may take few seconds
+[1040.96 s] Navigated To Home Page
+[1044.73 s] Navigated To TV Section
+[1047.19 s] Navigated To Catch Up Section
+[1051.29 s] lifestyle Is Displayed
+[1052.68 s] Navigated To Catch Up Movies Feed
+[1055.13 s] Selected Catch Up Playback
+[1055.27 s] AFTER IMAGE: ${after_image_path}
+[1055.28 s] CROPPED AFTER INFO BAR: ${after_crop}
+[1056.80 s] OCR AFTER TEXT: ${after_text}
+[1056.80 s] Initial STEP_COUNT: ${STEP_COUNT}
+[1056.81 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1056.81 s] "${item}" not found.
+[1056.81 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1056.81 s] "${item}" not found.
+[1056.81 s] Final STEP_COUNT: ${STEP_COUNT}
+[1064.73 s] Browsed Catch Up Categories And Initiated Content Playback
+[1072.11 s] Pause_Button Is Displayed
+[1150.03 s] Video is Playing
+[1158.58 s] ${start_time}
+[1171.69 s] Image is visible, continuing test
+[1171.69 s] Image not visible, rebooting STB
+[1171.69 s] It may take few seconds
+[1172.94 s] Navigated To Home Page
+[1176.76 s] Navigated To TV Section
+[1179.23 s] Navigated To Catch Up Section
+[1184.47 s] news Is Displayed
+[1185.71 s] Navigated To Catch Up Movies Feed
+[1188.21 s] Selected Catch Up Playback
+[1188.37 s] AFTER IMAGE: ${after_image_path}
+[1188.38 s] CROPPED AFTER INFO BAR: ${after_crop}
+[1189.95 s] OCR AFTER TEXT: ${after_text}
+[1189.95 s] Initial STEP_COUNT: ${STEP_COUNT}
+[1189.95 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1189.95 s] "${item}" not found.
+[1189.95 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1189.95 s] "${item}" not found.
+[1189.95 s] Final STEP_COUNT: ${STEP_COUNT}
+[1198.37 s] Browsed Catch Up Categories And Initiated Content Playback
+[1205.74 s] Pause_Button Is Displayed
+[1283.60 s] Video is Playing
+[1292.17 s] ${start_time}
+[1305.21 s] Image is visible, continuing test
+[1305.21 s] Image not visible, rebooting STB
+[1305.21 s] It may take few seconds
+[1306.67 s] Navigated To Home Page
+[1310.52 s] Navigated To TV Section
+[1313.00 s] Navigated To Catch Up Section
+[1318.63 s] sports Is Displayed
+[1321.07 s] Navigated To Catch Up Movies Feed
+[1323.53 s] Selected Catch Up Playback
+[1323.68 s] AFTER IMAGE: ${after_image_path}
+[1323.68 s] CROPPED AFTER INFO BAR: ${after_crop}
+[1324.91 s] OCR AFTER TEXT: ${after_text}
+[1324.92 s] Initial STEP_COUNT: ${STEP_COUNT}
+[1324.92 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1324.92 s] "${item}" not found.
+[1324.92 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1324.92 s] "${item}" not found.
+[1324.92 s] Final STEP_COUNT: ${STEP_COUNT}
+[1332.92 s] Browsed Catch Up Categories And Initiated Content Playback
+[1333.26 s] Pause_Button Is Displayed
+[1411.16 s] Video is Playing
+[1419.76 s] ${start_time}
+[1432.88 s] Image is visible, continuing test
+[1432.88 s] Image not visible, rebooting STB
+[1432.88 s] It may take few seconds
+[1434.30 s] Navigated To Home Page
+[1438.11 s] Navigated To TV Section
+[1440.66 s] Navigated To Catch Up Section
+[1447.34 s] movasian Is Displayed
+[1448.56 s] Navigated To Catch Up Movies Feed
+[1451.03 s] Selected Catch Up Playback
+[1451.17 s] AFTER IMAGE: ${after_image_path}
+[1451.18 s] CROPPED AFTER INFO BAR: ${after_crop}
+[1452.47 s] OCR AFTER TEXT: ${after_text}
+[1452.48 s] Initial STEP_COUNT: ${STEP_COUNT}
+[1452.48 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1452.48 s] "${item}" not found.
+[1452.48 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1452.48 s] "${item}" not found.
+[1452.48 s] Final STEP_COUNT: ${STEP_COUNT}
+[1460.87 s] Browsed Catch Up Categories And Initiated Content Playback
+[1468.23 s] Pause_Button Is Displayed
+[1546.15 s] Video is Playing
+[1554.74 s] ${start_time}
+[1567.83 s] Image is visible, continuing test
+[1567.83 s] Image not visible, rebooting STB
+[1567.83 s] It may take few seconds
+[1569.05 s] Navigated To Home Page
+[1572.75 s] Navigated To TV Section
+[1575.20 s] Navigated To Catch Up Section
+[1580.99 s] international Is Displayed
+[1582.27 s] Navigated To Catch Up Movies Feed
+[1584.76 s] Selected Catch Up Playback
+[1584.91 s] AFTER IMAGE: ${after_image_path}
+[1584.92 s] CROPPED AFTER INFO BAR: ${after_crop}
+[1586.20 s] OCR AFTER TEXT: ${after_text}
+[1586.20 s] Initial STEP_COUNT: ${STEP_COUNT}
+[1586.20 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1586.20 s] "${item}" not found.
+[1586.20 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1586.20 s] "${item}" not found.
+[1586.20 s] Final STEP_COUNT: ${STEP_COUNT}
+[1594.67 s] Browsed Catch Up Categories And Initiated Content Playback
+[1602.00 s] Pause_Button Is Displayed
+[1679.90 s] Video is Playing
+[1689.86 s] ${start_time}
+[1703.00 s] Image is visible, continuing test
+[1703.00 s] Image not visible, rebooting STB
+[1703.00 s] It may take few seconds
+[1704.24 s] 🏠 Navigated to HOME
+[1711.56 s] Exit popup found: ${Result}
+[1711.56 s] 🔍 Checked for exit popup
+[1737.91 s] Navigating to filter
+[1738.06 s] AFTER IMAGE: ${after_image_path}
+[1738.07 s] CROPPED AFTER INFO BAR: ${after_crop}
+[1739.25 s] OCR AFTER TEXT: ${after_text}
+[1739.25 s] Initial STEP_COUNT: ${STEP_COUNT}
+[1739.25 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1739.25 s] "${item}" not found.
+[1739.25 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1739.25 s] "${item}" not found.
+[1739.25 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1739.25 s] "${item}" not found.
+[1739.25 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1739.25 s] "${item}" not found.
+[1739.25 s] Final STEP_COUNT: ${STEP_COUNT}
+[1745.64 s] Filter selected
+[1762.31 s] Navigating to any startover channel
+[1844.30 s] Video is Playing
+[1847.78 s] AFTER IMAGE: ${after_image_path}
+[1847.78 s] CROPPED AFTER INFO BAR: ${cropped_img}
+[1847.82 s] OCR AFTER TEXT: ${after_text}
+[1847.82 s] 📺 Channel Checked: ${channel_number}
+[1864.30 s] Pause Visible: ${Pause_Visible}
+[1864.30 s] Start Over Visible: ${Start_Over_Visible}
+[1864.30 s] Attempt ${i}: Checking Pause and Start Over
+[1864.30 s] Pause Visible: ${Pause_Visible}
+[1864.30 s] Start Over Visible: ${Start_Over_Visible}
+[1864.30 s] 📺 Extracted Channel: ${latest_channel_number}
+[1864.30 s] ${channel_number_01}
+[1864.46 s] AFTER IMAGE: ${after_image_path}
+[1864.47 s] CROPPED AFTER INFO BAR: ${after_crop}
+[1864.75 s] OCR AFTER TEXT: ${after_text}
+[1864.75 s] Initial STEP_COUNT: ${STEP_COUNT}
+[1864.75 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1864.75 s] "${item}" not found.
+[1864.75 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1864.75 s] "${item}" not found.
+[1864.75 s] Final STEP_COUNT: ${STEP_COUNT}
+[1940.28 s] Video is Paused
+[1941.71 s] BEFORE IMAGE: ${before_image_path}
+[1941.71 s] CROPPED BEFORE INFO BAR: ${before_crop}
+[1966.20 s] Navigating to Startover from side pannel
+[1967.58 s] AFTER IMAGE: ${after_image_path}
+[1967.59 s] CROPPED AFTER INFO BAR: ${after_crop}
+[1967.88 s] OCR AFTER TEXT: ${after_text}
+[1967.88 s] Initial STEP_COUNT: ${STEP_COUNT}
+[1967.89 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1967.89 s] "${item}" not found.
+[1967.89 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1967.89 s] "${item}" not found.
+[1967.89 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[1967.89 s] "${item}" not found.
+[1967.89 s] Final STEP_COUNT: ${STEP_COUNT}
+[1983.31 s] AFTER IMAGE: ${after_image_path}
+[1983.32 s] CROPPED AFTER INFO BAR: ${after_crop}
+[1983.41 s] OCR AFTER TEXT: ${after_text}
+[1983.41 s] ▶ Truncated Start Timestamp: ${start}
+[1983.51 s] AI Slot List: ${slot_list}
+[1983.51 s] ✅ Start timestamp found in AI slot list
+[1983.51 s] SSIM SIMILARITY: ${similarity}
+[1983.51 s] Checking Video Playback
+[2061.52 s] Video is Playing
+[2070.21 s] Exit popup found: ${Result}
+[2070.21 s] Exit popup not display
+[2092.97 s] AFTER IMAGE: ${after_image_path}
+[2092.98 s] CROPPED AFTER INFO BAR: ${cropped_img}
+[2093.02 s] OCR AFTER TEXT: ${after_text}
+[2101.62 s] Exit popup found: ${Result}
+[2132.90 s] Navigating to filter
+[2133.05 s] AFTER IMAGE: ${after_image_path}
+[2133.05 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2133.23 s] OCR AFTER TEXT: ${after_text}
+[2133.23 s] Initial STEP_COUNT: ${STEP_COUNT}
+[2133.23 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2133.23 s] "${item}" not found.
+[2133.23 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2133.23 s] "${item}" not found.
+[2133.23 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2133.23 s] "${item}" not found.
+[2133.23 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2133.23 s] "${item}" not found.
+[2133.23 s] Final STEP_COUNT: ${STEP_COUNT}
+[2138.21 s] Filter selected
+[2149.63 s] ${start_time}
+[2162.83 s] Image is visible, continuing test
+[2162.83 s] Image not visible, rebooting STB
+[2162.83 s] It may take few seconds
+[2164.11 s] 🏠 Navigated to HOME
+[2171.44 s] Exit popup found: ${Result}
+[2171.44 s] 🔍 Checked for exit popup
+[2198.50 s] Navigating to filter
+[2198.65 s] AFTER IMAGE: ${after_image_path}
+[2198.65 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2199.83 s] OCR AFTER TEXT: ${after_text}
+[2199.83 s] Initial STEP_COUNT: ${STEP_COUNT}
+[2199.84 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2199.84 s] "${item}" not found.
+[2199.84 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2199.84 s] "${item}" not found.
+[2199.84 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2199.84 s] "${item}" not found.
+[2199.84 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2199.84 s] "${item}" not found.
+[2199.84 s] Final STEP_COUNT: ${STEP_COUNT}
+[2206.51 s] Filter selected
+[2223.77 s] Navigating to any startover channel
+[2305.70 s] Video is Playing
+[2309.11 s] AFTER IMAGE: ${after_image_path}
+[2309.12 s] CROPPED AFTER INFO BAR: ${cropped_img}
+[2309.15 s] OCR AFTER TEXT: ${after_text}
+[2309.15 s] 📺 Channel Checked: ${channel_number}
+[2325.85 s] Pause Visible: ${Pause_Visible}
+[2325.85 s] Start Over Visible: ${Start_Over_Visible}
+[2325.85 s] Attempt ${i}: Checking Pause and Start Over
+[2325.85 s] Pause Visible: ${Pause_Visible}
+[2325.85 s] Start Over Visible: ${Start_Over_Visible}
+[2325.85 s] 📺 Extracted Channel: ${latest_channel_number}
+[2325.85 s] ${channel_number_01}
+[2325.99 s] AFTER IMAGE: ${after_image_path}
+[2326.00 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2326.32 s] OCR AFTER TEXT: ${after_text}
+[2326.32 s] Initial STEP_COUNT: ${STEP_COUNT}
+[2326.32 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2326.32 s] "${item}" not found.
+[2326.32 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2326.32 s] "${item}" not found.
+[2326.32 s] Final STEP_COUNT: ${STEP_COUNT}
+[2401.78 s] Video is Paused
+[2403.26 s] BEFORE IMAGE: ${before_image_path}
+[2403.26 s] CROPPED BEFORE INFO BAR: ${before_crop}
+[2419.73 s] Navigating to Startover from side pannel
+[2421.12 s] AFTER IMAGE: ${after_image_path}
+[2421.13 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2421.44 s] OCR AFTER TEXT: ${after_text}
+[2421.44 s] Initial STEP_COUNT: ${STEP_COUNT}
+[2421.45 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2421.45 s] "${item}" not found.
+[2421.45 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2421.45 s] "${item}" not found.
+[2421.45 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2421.45 s] "${item}" not found.
+[2421.45 s] Final STEP_COUNT: ${STEP_COUNT}
+[2431.69 s] Pausing Start Over playback for 5 minutes
+[2436.84 s] AFTER IMAGE: ${after_image_path}
+[2436.85 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2436.93 s] OCR AFTER TEXT: ${after_text}
+[2436.94 s] ▶ Truncated Start Timestamp: ${start}
+[2437.02 s] AI Slot List: ${slot_list}
+[2437.02 s] ✅ Start timestamp found in AI slot list
+[2437.12 s] Extracted text: ${texts}
+[2437.12 s] ▶ Truncated Start Timestamp: ${start}
+[2437.22 s] AI Slot List: ${slot_list}
+[2437.22 s] ✅ Start timestamp found in AI slot list
+[2437.22 s] ${time_before_pause}
+[2438.47 s] Paused for 300s
+[2474.90 s] AFTER IMAGE: ${after_image_path}
+[2474.90 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2474.98 s] OCR AFTER TEXT: ${after_text}
+[2474.99 s] ▶ Truncated Start Timestamp: ${start}
+[2475.06 s] AI Slot List: ${slot_list}
+[2475.06 s] ✅ Start timestamp found in AI slot list
+[2475.14 s] Extracted text: ${texts}
+[2475.14 s] ▶ Truncated Start Timestamp: ${start}
+[2475.22 s] AI Slot List: ${slot_list}
+[2475.22 s] ✅ Start timestamp found in AI slot list
+[2475.22 s] ${time_after_pause}
+[2475.22 s] 🧪 Raw Start Time: ${start_time}
+[2475.22 s] 🧪 Raw Target Time: ${target_time}
+[2475.22 s] ▶ Truncated Start Timestamp: ${start}
+[2475.22 s] ▶ Normalized Target Timestamp: ${normalized_target}
+[2475.24 s] 🧠 AI Slot List: ${slot_list}
+[2475.24 s] 🧠 Slot List Starts From: ${slot_list[0]}
+[2475.24 s] ✅ '${target_time}' found in slot list
+[2475.24 s] found in slot list
+[2553.22 s] Video is Playing
+[2553.22 s] 🔎 [STEP 6] Checking for Exit Popup after test execution
+[2561.82 s] Exit popup found: ${Result}
+[2561.82 s] Exit popup not display
+[2584.76 s] AFTER IMAGE: ${after_image_path}
+[2584.76 s] CROPPED AFTER INFO BAR: ${cropped_img}
+[2584.79 s] OCR AFTER TEXT: ${after_text}
+[2593.39 s] Exit popup found: ${Result}
+[2624.16 s] Navigating to filter
+[2624.31 s] AFTER IMAGE: ${after_image_path}
+[2624.32 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2624.51 s] OCR AFTER TEXT: ${after_text}
+[2624.51 s] Initial STEP_COUNT: ${STEP_COUNT}
+[2624.52 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2624.52 s] "${item}" not found.
+[2624.52 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2624.52 s] "${item}" not found.
+[2624.52 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2624.52 s] "${item}" not found.
+[2624.52 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2624.52 s] "${item}" not found.
+[2624.52 s] Final STEP_COUNT: ${STEP_COUNT}
+[2629.42 s] Filter selected
+[2640.76 s] ${start_time}
+[2654.03 s] Image is visible, continuing test
+[2654.03 s] Image not visible, rebooting STB
+[2654.03 s] It may take few seconds
+[2655.42 s] 🏠 Navigated to HOME
+[2662.76 s] Exit popup found: ${Result}
+[2662.76 s] 🔍 Checked for exit popup
+[2686.46 s] AFTER IMAGE: ${after_image_path}
+[2686.47 s] CROPPED AFTER INFO BAR: ${cropped_img}
+[2687.49 s] OCR AFTER TEXT: ${after_text}
+[2687.49 s] 📺 Channel Checked: ${channel_number}
+[2700.74 s] Navigating to Startover from side pannel
+[2700.89 s] AFTER IMAGE: ${after_image_path}
+[2700.90 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2701.19 s] OCR AFTER TEXT: ${after_text}
+[2701.19 s] Initial STEP_COUNT: ${STEP_COUNT}
+[2701.19 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2701.19 s] "${item}" not found.
+[2701.19 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2701.19 s] "${item}" not found.
+[2701.20 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[2701.20 s] "${item}" not found.
+[2701.20 s] Final STEP_COUNT: ${STEP_COUNT}
+[2706.19 s] Checking Video Playback
+[2784.19 s] Video is Playing
+[2907.67 s] Video is Playing
+[2907.67 s] Subtitle Turned ON For Arabic Language
+[2907.67 s] \n--- Iteration ${index + 1}/${iterations} ---
+[2912.81 s] AFTER IMAGE: ${after_image_path}
+[2912.81 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2919.91 s] \n--- Iteration ${index + 1}/${iterations} ---
+[2925.09 s] AFTER IMAGE: ${after_image_path}
+[2925.09 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2931.85 s] \n--- Iteration ${index + 1}/${iterations} ---
+[2937.02 s] AFTER IMAGE: ${after_image_path}
+[2937.02 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2943.89 s] \n--- Iteration ${index + 1}/${iterations} ---
+[2949.06 s] AFTER IMAGE: ${after_image_path}
+[2949.07 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2951.18 s] Expected Language Displayed
+[2967.21 s] Subtitle Turned ON For English Language
+[2967.21 s] \n--- Iteration ${index + 1}/${iterations} ---
+[2972.37 s] AFTER IMAGE: ${after_image_path}
+[2972.38 s] CROPPED AFTER INFO BAR: ${after_crop}
+[2973.70 s] Expected Language Displayed
+[3051.86 s] Video is Playing
+[3060.66 s] Exit popup found: ${Result}
+[3060.66 s] Exit popup not display
+[3062.24 s] AFTER IMAGE: ${after_image_path}
+[3062.25 s] CROPPED AFTER INFO BAR: ${cropped_img}
+[3062.28 s] OCR AFTER TEXT: ${after_text}
+[3140.39 s] Video is Playing
+[3148.97 s] Exit popup found: ${Result}
+[3150.52 s] ${start_time}
+[3164.33 s] Image is visible, continuing test
+[3164.33 s] Image not visible, rebooting STB
+[3164.34 s] It may take few seconds
+[3165.59 s] 🏠 Navigated to HOME
+[3172.94 s] Exit popup found: ${Result}
+[3172.94 s] 🔍 Checked for exit popup
+[3200.29 s] Navigating to filter
+[3200.45 s] AFTER IMAGE: ${after_image_path}
+[3200.46 s] CROPPED AFTER INFO BAR: ${after_crop}
+[3201.65 s] OCR AFTER TEXT: ${after_text}
+[3201.65 s] Initial STEP_COUNT: ${STEP_COUNT}
+[3201.65 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3201.65 s] "${item}" not found.
+[3201.65 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3201.66 s] "${item}" not found.
+[3201.66 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3201.66 s] "${item}" not found.
+[3201.66 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3201.66 s] "${item}" not found.
+[3201.66 s] Final STEP_COUNT: ${STEP_COUNT}
+[3208.79 s] Filter selected
+[3224.86 s] Navigating to any startover channel
+[3233.03 s] AFTER IMAGE: ${after_image_path}
+[3233.04 s] CROPPED AFTER INFO BAR: ${cropped_img}
+[3233.08 s] OCR AFTER TEXT: ${after_text}
+[3233.08 s] 📺 Channel Checked: ${channel_number}
+[3237.58 s] Pause Visible: ${Pause_Visible}
+[3237.58 s] Start Over Visible: ${Start_Over_Visible}
+[3237.58 s] Attempt ${i}: Checking Pause and Start Over
+[3237.58 s] Pause Visible: ${Pause_Visible}
+[3237.58 s] Start Over Visible: ${Start_Over_Visible}
+[3237.58 s] 📺 Extracted Channel: ${latest_channel_number}
+[3237.58 s] ${channel_number_01}
+[3237.74 s] AFTER IMAGE: ${after_image_path}
+[3237.74 s] CROPPED AFTER INFO BAR: ${after_crop}
+[3238.12 s] OCR AFTER TEXT: ${after_text}
+[3238.12 s] Initial STEP_COUNT: ${STEP_COUNT}
+[3238.12 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3238.12 s] "${item}" not found.
+[3238.12 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3238.12 s] "${item}" not found.
+[3238.12 s] Final STEP_COUNT: ${STEP_COUNT}
+[3245.25 s] BEFORE IMAGE: ${before_image_path}
+[3245.25 s] CROPPED BEFORE INFO BAR: ${before_crop}
+[3271.14 s] AFTER IMAGE: ${after_image_path}
+[3271.14 s] CROPPED AFTER INFO BAR: ${after_crop}
+[3271.43 s] OCR AFTER TEXT: ${after_text}
+[3271.44 s] Initial STEP_COUNT: ${STEP_COUNT}
+[3271.44 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3271.44 s] "${item}" not found.
+[3271.44 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3271.44 s] "${item}" not found.
+[3271.44 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3271.44 s] "${item}" not found.
+[3271.44 s] Final STEP_COUNT: ${STEP_COUNT}
+[3359.84 s] Video is Playing
+[3359.84 s] Switch to stand by
+[3370.53 s] Switching to UI
+[3418.89 s] Who's login: ${Result}
+[3425.00 s] AFTER IMAGE: ${after_image_path}
+[3425.00 s] CROPPED AFTER INFO BAR: ${after_crop}
+[3425.30 s] OCR AFTER TEXT: ${after_text}
+[3425.30 s] Initial STEP_COUNT: ${STEP_COUNT}
+[3425.31 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3425.31 s] "${item}" not found.
+[3425.31 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3425.31 s] "${item}" not found.
+[3425.31 s] Final STEP_COUNT: ${STEP_COUNT}
+[3439.18 s] BEFORE IMAGE: ${before_image_path}
+[3439.18 s] CROPPED BEFORE INFO BAR: ${before_crop}
+[3447.10 s] AFTER IMAGE: ${after_image_path}
+[3447.11 s] CROPPED AFTER INFO BAR: ${after_crop}
+[3447.31 s] OCR AFTER TEXT: ${after_text}
+[3447.31 s] Initial STEP_COUNT: ${STEP_COUNT}
+[3447.31 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3447.31 s] "${item}" not found.
+[3447.31 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3447.31 s] "${item}" not found.
+[3447.31 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3447.31 s] "${item}" not found.
+[3447.32 s] Final STEP_COUNT: ${STEP_COUNT}
+[3541.13 s] Video is Playing
+[3541.13 s] Checking Video Quality
+[3549.83 s] Exit popup found: ${Result}
+[3549.83 s] Exit popup should display
+[3559.88 s] AFTER IMAGE: ${after_image_path}
+[3559.89 s] CROPPED AFTER INFO BAR: ${cropped_img}
+[3559.92 s] OCR AFTER TEXT: ${after_text}
+[3568.55 s] Exit popup found: ${Result}
+[3599.49 s] Navigating to filter
+[3599.66 s] AFTER IMAGE: ${after_image_path}
+[3599.66 s] CROPPED AFTER INFO BAR: ${after_crop}
+[3599.84 s] OCR AFTER TEXT: ${after_text}
+[3599.84 s] Initial STEP_COUNT: ${STEP_COUNT}
+[3599.84 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3599.84 s] "${item}" not found.
+[3599.84 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3599.84 s] "${item}" not found.
+[3599.84 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3599.84 s] "${item}" not found.
+[3599.84 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[3599.84 s] "${item}" not found.
+[3599.84 s] Final STEP_COUNT: ${STEP_COUNT}
+[3605.68 s] Filter selected
+[3617.13 s] ${start_time}
+[3630.19 s] Image is visible, continuing test
+[3630.19 s] Image not visible, rebooting STB
+[3630.19 s] It may take few seconds
+[3651.93 s] Navigated to search
+[3732.26 s] ${start_time}
+[3745.53 s] Image is visible, continuing test
+[3745.53 s] Image not visible, rebooting STB
+[3745.53 s] It may take few seconds
+[3787.29 s] [STEP ${n}] ${msg}
+[3787.29 s] [STEP ${n}] ${msg}
+[3801.90 s] [STEP ${n}] ${msg}
+[3801.90 s] [STEP ${n}] ${msg}
+[3801.90 s] [STEP ${n}] ${msg}
+[3821.90 s] [STEP ${n}] ${msg}
+[3831.24 s] [STEP ${n}] ${msg}
+[3840.57 s] [STEP ${n}] ${msg}
+[3849.89 s] [STEP ${n}] ${msg}
+[3859.22 s] [STEP ${n}] ${msg}
+[3868.56 s] [STEP ${n}] ${msg}
+[3877.91 s] [STEP ${n}] ${msg}
+[3885.27 s] [STEP ${n}] ${msg}
+[3885.27 s] [STEP ${n}] ${msg}
+[3885.27 s] [RESULT] Elapsed seconds returned: ${elapsed}
+[3885.27 s] It may take few seconds
+[3885.63 s] User Logged In
+[3885.63 s] Attempting User Login
+[3927.11 s] ${start_time}
+[3940.33 s] Image is visible, continuing test
+[3940.33 s] Image not visible, rebooting STB
+[4044.97 s] Reboot Success
+[4053.33 s] Who's login: ${Result}
+[4146.69 s] It may take few seconds
+[4170.35 s] Navigated to TV
+[4183.58 s] Navigated to TV Guide
+[4204.08 s] ${start_time}
+[4217.25 s] Image is visible, continuing test
+[4217.25 s] Image not visible, rebooting STB
+[4217.25 s] It may take few seconds
+[4271.20 s] Navigated to TV
+[4282.30 s] Navigated to TV GUIDE
+[4294.07 s] Navigated to Next Day Program
+[4311.55 s] Scheduled program
+[4311.55 s] User is on MY TV
+[4311.55 s] Navigated to Scheduled Recordings
+[4311.58 s] ${start_time}
+[4324.71 s] Image is visible, continuing test
+[4324.71 s] Image not visible, rebooting STB
+[4324.71 s] It may take few seconds
+[4379.92 s] Navigated to Movies
+[4380.27 s] Checking for Movies filter before Reboot
+[4380.27 s] Checking for Movies filter after Reboot
+[4380.27 s] Reverting Filter
+[4380.27 s] Navigated to Movies
+[4403.44 s] Navigating to filter
+[4421.14 s] Filter selected
+[4431.22 s] ${start_time}
+[4444.73 s] Image is visible, continuing test
+[4444.73 s] Image not visible, rebooting STB
+[4444.73 s] It may take few seconds
+[4576.89 s] ${start_time}
+[4589.96 s] Image is visible, continuing test
+[4589.96 s] Image not visible, rebooting STB
+[4589.96 s] It may take few seconds
+[4615.40 s] TC_809_Removal Is Not Displayed on screen
+[4666.77 s] Reminder_Added Is Displayed on screen
+[4668.61 s] Reminder_Set_Icon Is Displayed on screen
+[4699.24 s] Reminder_Added Is Displayed on screen
+[4700.83 s] Reminder_Set_Icon Is Displayed on screen
+[4732.02 s] Reminder_Added Is Displayed on screen
+[4733.63 s] Reminder_Set_Icon Is Displayed on screen
+[4747.97 s] Dubai_Under_Reminder Is Displayed on screen
+[4749.34 s] Sama_Dubai_Under_Reminder Is Displayed on screen
+[4753.41 s] Noor_Dubai_Under_Reminder Is Displayed on screen
+[4782.46 s] TC_809_Removal Is Displayed on screen
+[4786.39 s] ${start_time}
+[4799.68 s] Image is visible, continuing test
+[4799.68 s] Image not visible, rebooting STB
+[4799.68 s] It may take few seconds
+[4830.06 s] TC_822_ENGLISH_EPG Is Displayed on screen
+[5060.16 s] ${start_time}
+[5073.29 s] Image is visible, continuing test
+[5073.29 s] Image not visible, rebooting STB
+[5073.29 s] It may take few seconds
+[5096.16 s] Navigating to filter
+[5111.53 s] Filter selected
+[5144.91 s] TC_823_FILTER_SPORTS Is Displayed on screen
+[5150.09 s] Navigating to filter
+[5150.09 s] Filter selected
+[5173.27 s] Navigating to filter
+[5190.52 s] Filter selected
+[5201.52 s] ${start_time}
+[5214.58 s] Image is visible, continuing test
+[5214.58 s] Image not visible, rebooting STB
+[5214.58 s] It may take few seconds
+[5252.10 s] Filter selected
+[5282.94 s] Navigating to filter
+[5282.94 s] Filter selected
+[5306.33 s] Navigating to filter
+[5323.52 s] Filter selected
+[5333.72 s] ${start_time}
+[5346.76 s] Image is visible, continuing test
+[5346.76 s] Image not visible, rebooting STB
+[5346.76 s] It may take few seconds
+[5348.01 s] Navigated To Home Page
+[5351.78 s] Navigated To TV Section
+[5375.48 s] 🔁 Checking for supported recording type: ${recorded_storage_type}
+[5375.48 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5377.06 s] Record Visible: ${Record_Visible}
+[5399.82 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5401.42 s] Record Visible: ${Record_Visible}
+[5424.17 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5425.76 s] Record Visible: ${Record_Visible}
+[5448.27 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5449.89 s] Record Visible: ${Record_Visible}
+[5472.37 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5473.98 s] Record Visible: ${Record_Visible}
+[5497.05 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5498.70 s] Record Visible: ${Record_Visible}
+[5521.38 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5523.00 s] Record Visible: ${Record_Visible}
+[5545.68 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5547.32 s] Record Visible: ${Record_Visible}
+[5547.46 s] AFTER IMAGE: ${after_image_path}
+[5547.47 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5548.82 s] OCR AFTER TEXT: ${after_text}
+[5548.82 s] Initial STEP_COUNT: ${STEP_COUNT}
+[5548.82 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5548.82 s] "${item}" not found.
+[5548.82 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5548.82 s] "${item}" not found.
+[5548.82 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5548.82 s] "${item}" not found.
+[5548.82 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5548.82 s] "${item}" not found.
+[5548.82 s] Final STEP_COUNT: ${STEP_COUNT}
+[5565.28 s] AFTER IMAGE: ${after_image_path}
+[5565.29 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5565.36 s] OCR AFTER TEXT: ${after_text}
+[5565.36 s] 🧾 OCR Raw Text: ${raw_text}
+[5565.36 s] 🧹 Cleaned OCR: ${clean_text}
+[5565.36 s] 📦 Detected Type: ${recorded_storage_type}
+[5565.36 s] 📦 Is Supported: ${is_supported}
+[5579.06 s] AFTER IMAGE: ${after_image_path}
+[5579.07 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5579.10 s] OCR AFTER TEXT: ${after_text}
+[5579.10 s] Selecting cloud recording
+[5593.43 s] ✅ Supported recording type found: ${recorded_storage_type}
+[5601.79 s] Recording Failed or Unexpected Popup Detected
+[5617.93 s] 🔁 Checking for supported recording type: ${recorded_storage_type}
+[5617.93 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5619.51 s] Record Visible: ${Record_Visible}
+[5619.67 s] AFTER IMAGE: ${after_image_path}
+[5619.68 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5619.99 s] OCR AFTER TEXT: ${after_text}
+[5620.00 s] Initial STEP_COUNT: ${STEP_COUNT}
+[5620.00 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5620.00 s] "${item}" not found.
+[5620.00 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5620.00 s] "${item}" not found.
+[5620.00 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5620.00 s] "${item}" not found.
+[5620.00 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5620.00 s] "${item}" not found.
+[5620.00 s] Final STEP_COUNT: ${STEP_COUNT}
+[5635.40 s] AFTER IMAGE: ${after_image_path}
+[5635.41 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5635.48 s] OCR AFTER TEXT: ${after_text}
+[5635.48 s] 🧾 OCR Raw Text: ${raw_text}
+[5635.48 s] 🧹 Cleaned OCR: ${clean_text}
+[5635.48 s] 📦 Detected Type: ${recorded_storage_type}
+[5635.48 s] 📦 Is Supported: ${is_supported}
+[5648.25 s] AFTER IMAGE: ${after_image_path}
+[5648.27 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5648.31 s] OCR AFTER TEXT: ${after_text}
+[5648.31 s] Selecting cloud recording
+[5663.06 s] ✅ Supported recording type found: ${recorded_storage_type}
+[5673.43 s] 📺 Channel Checked After Failure: ${channel_name}
+[5702.20 s] ${start_time}
+[5715.24 s] Image is visible, continuing test
+[5715.24 s] Image not visible, rebooting STB
+[5715.24 s] It may take few seconds
+[5716.65 s] Navigated To Home Page
+[5744.12 s] 🔁 Checking for supported recording type: ${recorded_storage_type}
+[5744.12 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5746.01 s] Record Visible: ${Record_Visible}
+[5746.17 s] AFTER IMAGE: ${after_image_path}
+[5746.17 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5747.46 s] OCR AFTER TEXT: ${after_text}
+[5747.46 s] Initial STEP_COUNT: ${STEP_COUNT}
+[5747.46 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5747.46 s] "${item}" not found.
+[5747.46 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5747.46 s] "${item}" not found.
+[5747.46 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5747.46 s] "${item}" not found.
+[5747.46 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5747.46 s] "${item}" not found.
+[5747.46 s] Final STEP_COUNT: ${STEP_COUNT}
+[5762.00 s] AFTER IMAGE: ${after_image_path}
+[5762.01 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5762.08 s] OCR AFTER TEXT: ${after_text}
+[5762.08 s] 🧾 OCR Raw Text: ${raw_text}
+[5762.08 s] 🧹 Cleaned OCR: ${clean_text}
+[5762.08 s] 📦 Detected Type: ${recorded_storage_type}
+[5762.08 s] 📦 Is Supported: ${is_supported}
+[5774.85 s] AFTER IMAGE: ${after_image_path}
+[5774.85 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5774.90 s] OCR AFTER TEXT: ${after_text}
+[5774.90 s] Selecting cloud recording
+[5789.27 s] ✅ Supported recording type found: ${recorded_storage_type}
+[5797.66 s] Recording Failed or Unexpected Popup Detected
+[5813.70 s] 🔁 Checking for supported recording type: ${recorded_storage_type}
+[5813.70 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5815.31 s] Record Visible: ${Record_Visible}
+[5815.47 s] AFTER IMAGE: ${after_image_path}
+[5815.48 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5815.85 s] OCR AFTER TEXT: ${after_text}
+[5815.85 s] Initial STEP_COUNT: ${STEP_COUNT}
+[5815.86 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5815.86 s] "${item}" not found.
+[5815.86 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5815.86 s] "${item}" not found.
+[5815.86 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5815.86 s] "${item}" not found.
+[5815.86 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5815.86 s] "${item}" not found.
+[5815.86 s] Final STEP_COUNT: ${STEP_COUNT}
+[5831.22 s] AFTER IMAGE: ${after_image_path}
+[5831.23 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5831.29 s] OCR AFTER TEXT: ${after_text}
+[5831.29 s] 🧾 OCR Raw Text: ${raw_text}
+[5831.29 s] 🧹 Cleaned OCR: ${clean_text}
+[5831.29 s] 📦 Detected Type: ${recorded_storage_type}
+[5831.29 s] 📦 Is Supported: ${is_supported}
+[5844.38 s] AFTER IMAGE: ${after_image_path}
+[5844.39 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5844.42 s] OCR AFTER TEXT: ${after_text}
+[5844.42 s] Selecting cloud recording
+[5858.49 s] ✅ Supported recording type found: ${recorded_storage_type}
+[5868.85 s] 📺 Channel Checked After Failure: ${channel_name}
+[5868.85 s] Pressed Stop Button
+[5868.85 s] Navigated To Home Page
+[5897.92 s] ${start_time}
+[5911.09 s] Image is visible, continuing test
+[5911.09 s] Image not visible, rebooting STB
+[5911.09 s] It may take few seconds
+[5912.33 s] Navigated To Home Page
+[5916.39 s] Navigated To TV Section
+[5940.12 s] 🔁 Checking for supported recording type: ${recorded_storage_type}
+[5940.12 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[5941.75 s] Record Visible: ${Record_Visible}
+[5941.92 s] AFTER IMAGE: ${after_image_path}
+[5941.92 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5943.20 s] OCR AFTER TEXT: ${after_text}
+[5943.20 s] Initial STEP_COUNT: ${STEP_COUNT}
+[5943.20 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5943.20 s] "${item}" not found.
+[5943.20 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5943.20 s] "${item}" not found.
+[5943.20 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5943.20 s] "${item}" not found.
+[5943.20 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[5943.20 s] "${item}" not found.
+[5943.20 s] Final STEP_COUNT: ${STEP_COUNT}
+[5957.80 s] AFTER IMAGE: ${after_image_path}
+[5957.81 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5957.87 s] OCR AFTER TEXT: ${after_text}
+[5957.87 s] 🧾 OCR Raw Text: ${raw_text}
+[5957.87 s] 🧹 Cleaned OCR: ${clean_text}
+[5957.88 s] 📦 Detected Type: ${recorded_storage_type}
+[5957.88 s] 📦 Is Supported: ${is_supported}
+[5970.80 s] AFTER IMAGE: ${after_image_path}
+[5970.80 s] CROPPED AFTER INFO BAR: ${after_crop}
+[5970.83 s] OCR AFTER TEXT: ${after_text}
+[5970.83 s] Selecting cloud recording
+[5984.77 s] ✅ Supported recording type found: ${recorded_storage_type}
+[5993.16 s] TC_401_Rec_Start Is Displayed
+[6011.35 s] CROPPED AFTER INFO BAR: ${cropped_img}
+[6011.39 s] OCR AFTER TEXT: ${after_text}
+[6011.39 s] 📺 Channel Checked: ${channel_name1}
+[6050.04 s] 🔁 Checking for supported recording type: ${recorded_storage_type}
+[6050.04 s] 🔎 Attempt ${attempt}/${max_attempts}: Checking if 'Record' is visible
+[6051.72 s] Record Visible: ${Record_Visible}
+[6051.88 s] AFTER IMAGE: ${after_image_path}
+[6051.88 s] CROPPED AFTER INFO BAR: ${after_crop}
+[6052.21 s] OCR AFTER TEXT: ${after_text}
+[6052.21 s] Initial STEP_COUNT: ${STEP_COUNT}
+[6052.21 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[6052.21 s] "${item}" not found.
+[6052.21 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[6052.21 s] "${item}" not found.
+[6052.21 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[6052.21 s] "${item}" not found.
+[6052.21 s] Found "${item}". STEP_COUNT=${STEP_COUNT}
+[6052.21 s] "${item}" not found.
+[6052.21 s] Final STEP_COUNT: ${STEP_COUNT}
+[6066.98 s] AFTER IMAGE: ${after_image_path}
+[6066.98 s] CROPPED AFTER INFO BAR: ${after_crop}
+[6067.05 s] OCR AFTER TEXT: ${after_text}
+[6067.05 s] 🧾 OCR Raw Text: ${raw_text}
+[6067.05 s] 🧹 Cleaned OCR: ${clean_text}
+[6067.05 s] 📦 Detected Type: ${recorded_storage_type}
+[6067.05 s] 📦 Is Supported: ${is_supported}
+[6079.92 s] AFTER IMAGE: ${after_image_path}
+[6079.93 s] CROPPED AFTER INFO BAR: ${after_crop}
+[6079.98 s] OCR AFTER TEXT: ${after_text}
+[6079.98 s] Selecting cloud recording
+[6093.54 s] ✅ Supported recording type found: ${recorded_storage_type}
+[6096.93 s] CONFLICT_POPUP Is Not Displayed
+[6114.73 s] CROPPED AFTER INFO BAR: ${cropped_img}
+[6114.77 s] OCR AFTER TEXT: ${after_text}
+[6114.77 s] 📺 Channel Checked: ${channel_name}
+[6252.90 s] AFTER IMAGE: ${after_image_path}
+[6252.90 s] CROPPED AFTER INFO BAR: ${after_crop}
+[6252.94 s] OCR AFTER TEXT: ${after_text}
+[6252.94 s] CLEANED TEXT: ${without_special_char}
+[6252.94 s] ${recorded_channel_text}
+[6252.95 s] ✅ '${channel_name_mylist}' is found in '${channel_name}'
+[6253.10 s] AFTER IMAGE: ${after_image_path}
+[6253.11 s] CROPPED AFTER INFO BAR: ${after_crop}
+[6253.14 s] OCR AFTER TEXT: ${after_text}
+[6253.14 s] CLEANED TEXT: ${without_special_char}
+[6253.15 s] ✅ '${channel_name_mylist}' is found in '${channel_name}'
+[6253.15 s] ${recorded_channel_text1}
+[6273.46 s] Recording Completed popup found: ${Result}
+[6351.63 s] Video is Playing
+[6385.97 s] Recording Completed popup found: ${Result}
+[6464.11 s] Video is Playing
+[6496.24 s] ${start_time}
+[6510.23 s] Image is visible, continuing test
+[6510.23 s] Image not visible, rebooting STB
+[6510.23 s] It may take few seconds
+[6551.58 s] Initial STEP_COUNT: ${STEP_COUNT}
+[6553.21 s] Pause: ${Result}
+[6554.98 s] Start over: ${Result}
+[6556.74 s] After Increment: ${STEP_COUNT}
+[6563.01 s] Tapped Record Button
+[6563.01 s] Record The Program Is Selected
+[6574.20 s] CLOUD Is Displayed on screen
+[6580.17 s] Playback Recording Started
+[6580.52 s] TC_401_Rec_Start Is Displayed
+[6799.40 s] cloud Is Displayed on screen
+[6802.43 s] Cloud_high Is Displayed on screen
+[6804.05 s] STOP_REC Is Displayed on screen
+[6892.18 s] Video is Playing
+[6969.63 s] Who's login: ${Result1}, Profile: ${Result2}
+[6970.89 s] Navigated to Home page
+[6988.07 s] login: ${pin}
+[6995.41 s] Who's login: ${Result}
+[6996.68 s] Navigated to Home page
+[7021.96 s] ${start_time}
+[7035.03 s] Image is visible, continuing test
+[7035.03 s] Image not visible, rebooting STB
+[7035.03 s] It may take few seconds
+[7052.86 s] Navigated to profile settings
+[7158.17 s] Navigated to profile settings
+[7188.29 s] TC_006_Always_login Is Displayed
+[7300.69 s] Reboot Success
+[7309.02 s] Profile is set as default user
+[7329.19 s] Home_Page Is Displayed on screen
+[7347.28 s] Navigated to profile settings
+[7368.09 s] Who's login: ${Result1}, Profile: ${Result2}
+[7370.01 s] Navigated to Home page
+[7387.33 s] login: ${pin}
+[7394.67 s] Who's login: ${Result}
+[7395.89 s] Navigated to Home page
+[7428.33 s] ${start_time}
+[7441.59 s] Image is visible, continuing test
+[7441.59 s] Image not visible, rebooting STB
+[7441.59 s] It may take few seconds
+[7479.21 s] ${start_time}
+[7492.29 s] Image is visible, continuing test
+[7492.29 s] Image not visible, rebooting STB
+[7492.29 s] It may take few seconds
+[7544.44 s] FAVLIST1_CH1 Is Displayed on screen
+[7560.10 s] FAVLIST1_CH2 Is Displayed on screen
+[7575.69 s] FAVLIST1_CH3 Is Displayed on screen
+[7592.89 s] FAVLIST1_CH4 Is Displayed on screen
+[7609.02 s] FAVLIST1_CH5 Is Displayed on screen
+[7642.21 s] FAVLIST2_CH1 Is Displayed on screen
+[7656.59 s] FAVLIST2_CH2 Is Displayed on screen
+[7672.99 s] FAVLIST2_CH3 Is Displayed on screen
+[7689.24 s] FAVLIST2_CH4 Is Displayed on screen
+[7706.17 s] FAVLIST2_CH5 Is Displayed on screen
+[7776.49 s] FAVLIST1_CH1 Is Deleted
+[7792.58 s] FAVLIST1_CH4 Is Deleted
+[7809.16 s] FAVLIST1_CH5 Is Deleted
+[7839.47 s] FAVLIST2_CH1 Is Deleted
+[7854.31 s] FAVLIST2_CH4 Is Deleted
+[7870.40 s] FAVLIST2_CH5 Is Deleted
+[7995.76 s] Reboot Success
+[8004.12 s] Who's login: ${Result}
+[8063.48 s] FAVLIST1_CH1_CHECK Is Not Displayed on screen
+[8072.11 s] Last selected favorite List is retained after Reboot
+[8112.06 s] Cleared FAV1
+[8125.18 s] Cleared FAV2
+[8139.79 s] Cleared FAV3
+[8154.84 s] Cleared FAV4
+[8171.12 s] Cleared FAV5
+[8181.07 s] ${start_time}
+[8194.45 s] Image is visible, continuing test
+[8194.45 s] Image not visible, rebooting STB
+[8194.45 s] It may take few seconds
+[8243.60 s] Clear unhide
+[8341.86 s] 5_Lock_Channels Is Displayed on screen
+[8349.69 s] Unclocked only 2 channels
+[8480.77 s] Reboot Success
+[8489.11 s] Who's login: ${Result}
+[8604.83 s] 2_Unhidden_Channels Is Not Displayed on screen
+[8625.76 s] ${start_time}
+[8638.86 s] Image is visible, continuing test
+[8638.86 s] Image not visible, rebooting STB
+[8638.86 s] It may take few seconds
+[8882.66 s] Reboot Success
+[8911.69 s] Who's login: ${Result1}, Profile: ${Result2}
+[8986.52 s] Navigated to Home page
+[9003.38 s] login: ${pin}
+[9010.75 s] Who's login: ${Result}
+[9012.00 s] Navigated to Home page
