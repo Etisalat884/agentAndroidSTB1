@@ -1,0 +1,14 @@
+
+📊 Final Metrics:
+   Total frames: 601
+   Black/white anomalies: 0
+   Blurry anomalies: 398
+   Stddev glitches: 199
+   Brightness issues: 0
+   Frozen (SSIM): 1
+   Blocking Rate: 27.12222
+   Banding Rate: 0.01143
+
+🎬 Final Verdict: Bad Quality Video
+📌 Reason: Multiple quality thresholds exceeded
+📌 Verdict Factors → Blocking: 27.12, Banding: 0.01143, Brightness: 0, SSIM Freeze: 1, BW: 0
