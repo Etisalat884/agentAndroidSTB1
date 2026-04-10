@@ -1,0 +1,79 @@
+*** Settings ***
+Documentation     A Robot script with a single task for EvQUAL
+...               Created by Robot recorder"
+Library           SeleniumLibrary    timeout=10
+Test Teardown     Close Browser
+*** Variables ***
+${BROWSER}    chromium
+${SLEEP}    3
+
+*** Test Cases ***
+EvQUAL Test
+    Open Browser    http://192.168.1.58:3000/platform/M&E/DeviceFilter/deviceView    ${BROWSER}
+    Click Element    //button[@id="Home Button"]
+    Click Element    //button[@id="Up Button"]
+    Click Element    //button[@id="Right Button"]
+    Click Element    //button[@id="Right Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="Right Button"]
+    Click Element    //button[@id="Right Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="Right Button"]
+    Click Element    //button[@id="Right Button"]
+    Click Element    //button[@id="Right Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="Right Button"]
+    Click Element    //button[@id="Right Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="LEFT Button"]
+    Click Element    //button[@id="LEFT Button"]
+    Click Element    //button[@id="LEFT Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //img[@id="Capture_Image Button"]
+    Click Element    //img[@class="screen-shot-crop-img"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-w"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-nw"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-se"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-se"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-s"]
+    Input Text    //input[@class="file-text-input  dark"]    TC506_-4X_rewind
+    Click Element    //button[@title="Select Region Of Interest"]
+    Click Element    //path
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //img[@id="Capture_Image Button"]
+    Click Element    //img[@class="screen-shot-crop-img"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-nw"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-nw"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-se"]
+    Input Text    //input[@class="file-text-input  dark"]    TC506_-8x_rewind
+    Click Element    //button[@title="Select Region Of Interest"]
+    Click Element    //svg[@class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //img[@id="Capture_Image Button"]
+    Click Element    //img[@class="screen-shot-crop-img"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-w"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-nw"]
+    Click Element    //div[@class="ReactCrop__drag-elements"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-n"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-e"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-e"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-se"]
+    Click Element    //img[@class="screen-shot-crop-img"]
+    Click Element    //img[@class="screen-shot-crop-img"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-se"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-se"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-s"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-s"]
+    Click Element    //div[@class="ReactCrop__drag-handle ord-n"]
+    Input Text    //input[@class="file-text-input  dark"]    TC506_-16x_rewind
+    Click Element    //button[@title="Select Region Of Interest"]
+    Click Element    //path
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="Ok Button"]
+    Click Element    //button[@id="Home Button"]
+    Click Link    xpath=(//a[@href="/platform"])[2]

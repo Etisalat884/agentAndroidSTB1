@@ -1,0 +1,18 @@
+Recording WAVE '/tmp/audio_test.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Stereo
+Recording WAVE '/tmp/audio_test.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Stereo
+Recording WAVE '/tmp/audio_test.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Stereo
+Recording WAVE '/tmp/audio_test.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Stereo
+Recording WAVE '/tmp/audio_test.wav' : Signed 16 bit Little Endian, Rate 48000 Hz, Stereo
+Recording 1/5...
+RMS 1: 0.02660
+Recording 2/5...
+RMS 2: 0.02698
+Recording 3/5...
+RMS 3: 0.02736
+Recording 4/5...
+RMS 4: 0.02686
+Recording 5/5...
+RMS 5: 0.02646
+
+📊 Average RMS: 0.02685
+0.02685

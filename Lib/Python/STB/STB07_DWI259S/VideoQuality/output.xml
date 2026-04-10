@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.8.10 on linux)" generated="2025-10-09T14:24:25.444222" rpa="false" schemaversion="5">
+<suite id="s1" name="VQ1" source="/home/ltts2/Documents/evqual_automation/agentAndroidSTB1/workspace/Lib/Python/STB/Etisalat_Android_STB1/VideoQuality/VQ1.robot">
+<test id="s1-t1" name="TC_001_VQ_ANALYSIS" line="14">
+<kw name="CALCULATE VIDEO QUALITY">
+<kw name="Create List" owner="BuiltIn">
+<msg time="2025-10-09T14:24:25.676262" level="INFO">${all_results} = []</msg>
+<var>${all_results}</var>
+<doc>Returns a list containing given items.</doc>
+<status status="PASS" start="2025-10-09T14:24:25.676169" elapsed="0.000117"/>
+</kw>
+<kw name="Set Variable" owner="BuiltIn">
+<msg time="2025-10-09T14:24:25.676416" level="INFO">${total_score} = 0.0</msg>
+<var>${total_score}</var>
+<arg>0.0</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<status status="PASS" start="2025-10-09T14:24:25.676353" elapsed="0.000075"/>
+</kw>
+<for flavor="IN RANGE">
+<iter>
+<kw name="Video Metrics" owner="Video_metrics_robot">
+<msg time="2025-10-09T14:24:27.949213" level="INFO">&lt;class 'str'&gt;
+&lt;class 'str'&gt;
+Video Quality Metrics: {'Resolution': '640 x 480', 'FPS': 30.0, 'Black Frames': 0, 'Avg PSNR': 24.06, 'Blocking Rate': 56.24, 'Banding Rate': 34.15, 'Blur Frames': 0, 'Clarity Score': 88.65, 'Quality_Score': 23.76, 'Dropped Frames': 0, 'SSIM Score': 0.73, 'Macroblocking': 'Macroblocking Detected', 'Blur Score': 681.1, 'Codec': 'BGR3', 'Timestamp': '0910_142427'}</msg>
+<msg time="2025-10-09T14:24:27.949384" level="INFO">${result} = {'Resolution': '640 x 480', 'FPS': 30.0, 'Black Frames': 0, 'Avg PSNR': 24.06, 'Blocking Rate': 56.24, 'Banding Rate': 34.15, 'Blur Frames': 0, 'Clarity Score': 88.65, 'Quality_Score': 23.76, 'Dropped...</msg>
+<var>${result}</var>
+<arg>${video_port}</arg>
+<arg>${duration}</arg>
+<arg>${trigger_id}</arg>
+<status status="PASS" start="2025-10-09T14:24:25.676648" elapsed="2.272754"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-10-09T14:24:27.949558" elapsed="0.000171"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_results}</arg>
+<arg>${result}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-10-09T14:24:27.949791" elapsed="0.000086"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2025-10-09T14:24:27.950016" level="INFO">${score} = 23.76</msg>
+<var>${score}</var>
+<arg>${result}</arg>
+<arg>Quality_Score</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2025-10-09T14:24:27.949930" elapsed="0.000100"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-10-09T14:24:27.950228" level="INFO">${total_score} = 23.76</msg>
+<var>${total_score}</var>
+<arg>${total_score} + ${score}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-10-09T14:24:27.950083" elapsed="0.000158"/>
+</kw>
+<var name="${index}">0</var>
+<status status="PASS" start="2025-10-09T14:24:25.676603" elapsed="2.273657"/>
+</iter>
+<iter>
+<kw name="Video Metrics" owner="Video_metrics_robot">
+<msg time="2025-10-09T14:24:30.105277" level="INFO">&lt;class 'str'&gt;
+&lt;class 'str'&gt;
+Video Quality Metrics: {'Resolution': '640 x 480', 'FPS': 30.0, 'Black Frames': 0, 'Avg PSNR': 26.86, 'Blocking Rate': 52.62, 'Banding Rate': 30.41, 'Blur Frames': 0, 'Clarity Score': 93.05, 'Quality_Score': 21.97, 'Dropped Frames': 1, 'SSIM Score': 0.77, 'Macroblocking': 'Macroblocking Detected', 'Blur Score': 416.89, 'Codec': 'BGR3', 'Timestamp': '0910_142430'}</msg>
+<msg time="2025-10-09T14:24:30.105424" level="INFO">${result} = {'Resolution': '640 x 480', 'FPS': 30.0, 'Black Frames': 0, 'Avg PSNR': 26.86, 'Blocking Rate': 52.62, 'Banding Rate': 30.41, 'Blur Frames': 0, 'Clarity Score': 93.05, 'Quality_Score': 21.97, 'Dropped...</msg>
+<var>${result}</var>
+<arg>${video_port}</arg>
+<arg>${duration}</arg>
+<arg>${trigger_id}</arg>
+<status status="PASS" start="2025-10-09T14:24:27.950376" elapsed="2.155064"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-10-09T14:24:30.105574" elapsed="0.000157"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_results}</arg>
+<arg>${result}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-10-09T14:24:30.105791" elapsed="0.000080"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2025-10-09T14:24:30.106006" level="INFO">${score} = 21.97</msg>
+<var>${score}</var>
+<arg>${result}</arg>
+<arg>Quality_Score</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2025-10-09T14:24:30.105925" elapsed="0.000094"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-10-09T14:24:30.106198" level="INFO">${total_score} = 45.730000000000004</msg>
+<var>${total_score}</var>
+<arg>${total_score} + ${score}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-10-09T14:24:30.106074" elapsed="0.000137"/>
+</kw>
+<var name="${index}">1</var>
+<status status="PASS" start="2025-10-09T14:24:27.950333" elapsed="2.155895"/>
+</iter>
+<iter>
+<kw name="Video Metrics" owner="Video_metrics_robot">
+<msg time="2025-10-09T14:24:32.332744" level="INFO">&lt;class 'str'&gt;
+&lt;class 'str'&gt;
+Video Quality Metrics: {'Resolution': '640 x 480', 'FPS': 30.0, 'Black Frames': 0, 'Avg PSNR': 26.0, 'Blocking Rate': 57.64, 'Banding Rate': 33.58, 'Blur Frames': 0, 'Clarity Score': 89.17, 'Quality_Score': 23.89, 'Dropped Frames': 0, 'SSIM Score': 0.75, 'Macroblocking': 'Macroblocking Detected', 'Blur Score': 649.56, 'Codec': 'BGR3', 'Timestamp': '0910_142432'}</msg>
+<msg time="2025-10-09T14:24:32.332915" level="INFO">${result} = {'Resolution': '640 x 480', 'FPS': 30.0, 'Black Frames': 0, 'Avg PSNR': 26.0, 'Blocking Rate': 57.64, 'Banding Rate': 33.58, 'Blur Frames': 0, 'Clarity Score': 89.17, 'Quality_Score': 23.89, 'Dropped ...</msg>
+<var>${result}</var>
+<arg>${video_port}</arg>
+<arg>${duration}</arg>
+<arg>${trigger_id}</arg>
+<status status="PASS" start="2025-10-09T14:24:30.106340" elapsed="2.226592"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-10-09T14:24:32.333077" elapsed="0.000174"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_results}</arg>
+<arg>${result}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-10-09T14:24:32.333323" elapsed="0.000152"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2025-10-09T14:24:32.333613" level="INFO">${score} = 23.89</msg>
+<var>${score}</var>
+<arg>${result}</arg>
+<arg>Quality_Score</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2025-10-09T14:24:32.333530" elapsed="0.000096"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-10-09T14:24:32.333806" level="INFO">${total_score} = 69.62</msg>
+<var>${total_score}</var>
+<arg>${total_score} + ${score}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-10-09T14:24:32.333677" elapsed="0.000142"/>
+</kw>
+<var name="${index}">2</var>
+<status status="PASS" start="2025-10-09T14:24:30.106301" elapsed="2.227535"/>
+</iter>
+<iter>
+<kw name="Video Metrics" owner="Video_metrics_robot">
+<msg time="2025-10-09T14:24:34.580146" level="INFO">&lt;class 'str'&gt;
+&lt;class 'str'&gt;
+Video Quality Metrics: {'Resolution': '640 x 480', 'FPS': 30.0, 'Black Frames': 0, 'Avg PSNR': 28.98, 'Blocking Rate': 60.97, 'Banding Rate': 37.43, 'Blur Frames': 0, 'Clarity Score': 88.09, 'Quality_Score': 24.57, 'Dropped Frames': 0, 'SSIM Score': 0.82, 'Macroblocking': 'No Macroblocking', 'Blur Score': 714.49, 'Codec': 'BGR3', 'Timestamp': '0910_142434'}</msg>
+<msg time="2025-10-09T14:24:34.580342" level="INFO">${result} = {'Resolution': '640 x 480', 'FPS': 30.0, 'Black Frames': 0, 'Avg PSNR': 28.98, 'Blocking Rate': 60.97, 'Banding Rate': 37.43, 'Blur Frames': 0, 'Clarity Score': 88.09, 'Quality_Score': 24.57, 'Dropped...</msg>
+<var>${result}</var>
+<arg>${video_port}</arg>
+<arg>${duration}</arg>
+<arg>${trigger_id}</arg>
+<status status="PASS" start="2025-10-09T14:24:32.333951" elapsed="2.246409"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-10-09T14:24:34.580542" elapsed="0.000186"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_results}</arg>
+<arg>${result}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-10-09T14:24:34.580806" elapsed="0.000097"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2025-10-09T14:24:34.581050" level="INFO">${score} = 24.57</msg>
+<var>${score}</var>
+<arg>${result}</arg>
+<arg>Quality_Score</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2025-10-09T14:24:34.580959" elapsed="0.000105"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-10-09T14:24:34.581246" level="INFO">${total_score} = 94.19</msg>
+<var>${total_score}</var>
+<arg>${total_score} + ${score}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-10-09T14:24:34.581120" elapsed="0.000139"/>
+</kw>
+<var name="${index}">3</var>
+<status status="PASS" start="2025-10-09T14:24:32.333910" elapsed="2.247366"/>
+</iter>
+<iter>
+<kw name="Video Metrics" owner="Video_metrics_robot">
+<msg time="2025-10-09T14:24:36.759793" level="INFO">&lt;class 'str'&gt;
+&lt;class 'str'&gt;
+Video Quality Metrics: {'Resolution': '640 x 480', 'FPS': 30.0, 'Black Frames': 0, 'Avg PSNR': 28.99, 'Blocking Rate': 61.11, 'Banding Rate': 36.44, 'Blur Frames': 0, 'Clarity Score': 91.06, 'Quality_Score': 22.65, 'Dropped Frames': 1, 'SSIM Score': 0.83, 'Macroblocking': 'No Macroblocking', 'Blur Score': 536.23, 'Codec': 'BGR3', 'Timestamp': '0910_142436'}</msg>
+<msg time="2025-10-09T14:24:36.759953" level="INFO">${result} = {'Resolution': '640 x 480', 'FPS': 30.0, 'Black Frames': 0, 'Avg PSNR': 28.99, 'Blocking Rate': 61.11, 'Banding Rate': 36.44, 'Blur Frames': 0, 'Clarity Score': 91.06, 'Quality_Score': 22.65, 'Dropped...</msg>
+<var>${result}</var>
+<arg>${video_port}</arg>
+<arg>${duration}</arg>
+<arg>${trigger_id}</arg>
+<status status="PASS" start="2025-10-09T14:24:34.581394" elapsed="2.178575"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${result}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-10-09T14:24:36.760103" elapsed="0.000152"/>
+</kw>
+<kw name="Append To List" owner="Collections">
+<arg>${all_results}</arg>
+<arg>${result}</arg>
+<doc>Adds ``values`` to the end of ``list``.</doc>
+<status status="PASS" start="2025-10-09T14:24:36.760327" elapsed="0.000086"/>
+</kw>
+<kw name="Get From Dictionary" owner="Collections">
+<msg time="2025-10-09T14:24:36.760560" level="INFO">${score} = 22.65</msg>
+<var>${score}</var>
+<arg>${result}</arg>
+<arg>Quality_Score</arg>
+<doc>Returns a value from the given ``dictionary`` based on the given ``key``.</doc>
+<status status="PASS" start="2025-10-09T14:24:36.760471" elapsed="0.000104"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-10-09T14:24:36.760753" level="INFO">${total_score} = 116.84</msg>
+<var>${total_score}</var>
+<arg>${total_score} + ${score}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-10-09T14:24:36.760629" elapsed="0.000137"/>
+</kw>
+<var name="${index}">4</var>
+<status status="PASS" start="2025-10-09T14:24:34.581350" elapsed="2.179434"/>
+</iter>
+<var>${index}</var>
+<value>5</value>
+<status status="PASS" start="2025-10-09T14:24:25.676474" elapsed="11.084330"/>
+</for>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-10-09T14:24:36.760952" level="INFO">${average} = 23.368000000000002</msg>
+<var>${average}</var>
+<arg>${total_score} / 5</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-10-09T14:24:36.760859" elapsed="0.000105"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-10-09T14:24:36.761110" level="INFO">${average} = 23.37</msg>
+<var>${average}</var>
+<arg>round(${average}, 2)</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-10-09T14:24:36.761013" elapsed="0.000108"/>
+</kw>
+<return>
+<value>${average}</value>
+<status status="PASS" start="2025-10-09T14:24:36.761150" elapsed="0.000031"/>
+</return>
+<msg time="2025-10-09T14:24:36.761248" level="INFO">${results} = 23.37</msg>
+<var>${results}</var>
+<arg>${video_port}</arg>
+<arg>${duration}</arg>
+<arg>${trigger_id}</arg>
+<status status="PASS" start="2025-10-09T14:24:25.675719" elapsed="11.085541"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Average Quality Score: ${results}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-10-09T14:24:36.761361" elapsed="0.000089"/>
+</kw>
+<kw name="EVALUATE VIDEO QUALITY STATUS">
+<kw name="Convert To Number" owner="BuiltIn">
+<msg time="2025-10-09T14:24:36.761834" level="INFO">${score} = 23.37</msg>
+<var>${score}</var>
+<arg>${score}</arg>
+<doc>Converts the given item to a floating point number.</doc>
+<status status="PASS" start="2025-10-09T14:24:36.761729" elapsed="0.000118"/>
+</kw>
+<kw name="Run Keyword If" owner="BuiltIn">
+<kw name="Fail" owner="BuiltIn">
+<msg time="2025-10-09T14:24:36.762205" level="FAIL">Video quality is BAD — Test Failed</msg>
+<arg>Video quality is BAD — Test Failed</arg>
+<doc>Fails the test with the given message and optionally alters its tags.</doc>
+<status status="FAIL" start="2025-10-09T14:24:36.762093" elapsed="0.000160">Video quality is BAD — Test Failed</status>
+</kw>
+<arg>${score} &gt;= 80</arg>
+<arg>Log To Console</arg>
+<arg>Video quality is EXCELLENT</arg>
+<arg>ELSE IF</arg>
+<arg>${score} &gt;= 60</arg>
+<arg>Log To Console</arg>
+<arg>Video quality is GOOD</arg>
+<arg>ELSE IF</arg>
+<arg>${score} &gt;= 40</arg>
+<arg>Log To Console</arg>
+<arg>Video quality is AVERAGE</arg>
+<arg>ELSE IF</arg>
+<arg>${score} &gt;= 30</arg>
+<arg>Log To Console</arg>
+<arg>Video quality is POOR</arg>
+<arg>ELSE</arg>
+<arg>Fail</arg>
+<arg>Video quality is BAD — Test Failed</arg>
+<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
+<status status="FAIL" start="2025-10-09T14:24:36.761906" elapsed="0.000371">Video quality is BAD — Test Failed</status>
+</kw>
+<arg>${results}</arg>
+<status status="FAIL" start="2025-10-09T14:24:36.761553" elapsed="0.000795">Video quality is BAD — Test Failed</status>
+</kw>
+<status status="FAIL" start="2025-10-09T14:24:25.675246" elapsed="11.087210">Video quality is BAD — Test Failed</status>
+</test>
+<status status="FAIL" start="2025-10-09T14:24:25.444788" elapsed="11.317976"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="VQ1" id="s1" pass="0" fail="1" skip="0">VQ1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
